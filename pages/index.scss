@@ -1,0 +1,73 @@
+// Abstract (importing variablex, mixins, placeholders etc.
+@import "../abstract/_constants";
+@import "../abstract/_mixins";
+@import "../abstract/_placeholders";
+
+//Flex
+@import "../blocks/flex/_flex";
+@import "../blocks/flex/_direction/flex_direction-column";
+@import "../blocks/flex/_direction/flex_direction-row";
+@import "../blocks/flex/_wrap/flex_wrap-wrap";
+@import "../blocks/flex/_wrap/flex_wrap-nowrap";
+
+//Wrapper
+@import "../blocks/wrapper/_wrapper";
+@import "../blocks/wrapper/_color/_wrapper_color-dark";
+@import "../blocks/wrapper/_paddings/_wrapper_paddings-sides";
+@import "../blocks/wrapper/_paddings/_wrapper_paddings-top";
+
+// Menu (used BEM Nested file structure)
+@import "../blocks/menu/menu";
+@import "../blocks/menu/__link/menu__link";
+@import "../blocks/menu/__list/menu__list";
+@import "../blocks/menu/__list-item/menu__list-item";
+@import "../blocks/menu/_place/menu_place_header";
+
+// Section
+@import "../blocks/section/section";
+@import "../blocks/section/__title/section__title";
+
+//Buttons
+@import "../blocks/button/button";
+@import "../blocks/button/_color/button_color-dark";
+@import "../blocks/button/_color/button_color-gold";
+@import "../blocks/button/_place/button_place-hero";
+@import "../blocks/button/_place/button_place-portfolio";
+@import "../blocks/button/_place/button_place-price";
+@import "../blocks/button/_place/button_place-contacts";
+
+@import "../blocks/button/_size/button_size-small";
+@import "../blocks/button/_size/button_size-normal";
+@import "../blocks/button/_size/button_size-large";
+@import "../blocks/button/__text/button__text";
+@import "../blocks/button/__text/_color/button__text_color-dark";
+@import "../blocks/button/__text/_color/button__text_color-light";
+@import "../blocks/button/__text/_color/button__text_color-gold";
+
+// Form
+
+@import "../blocks/form/form";
+@import "../blocks/form/__input-container/form__input-container";
+@import "../blocks/form/__handlers/form__handlers";
+@import "../blocks/form/__label/form__label";
+@import "../blocks/form/__item/form__item";
+@import "../blocks/form/__item/_el/form__item_el-message";
+@import "../blocks/form/__item/_el/form__item_el-text";
+@import "../blocks/form/__item/_el/form__item_el-email";
+@import "../blocks/form/__title/form__title";
+@import "../blocks/form/__main-container/form__main-container";
+
+
+
+// Sections (used BEM Nested file structure)
+@import "../blocks/header/_header";
+
+
+@import "../blocks/contacts/contacts";
+
+@import "../blocks/footer/footer";
+@import "../blocks/footer/__copyright/footer__copyright";
+@import "../blocks/footer/__text/footer__text";
+@import "../blocks/footer/__subtitle/footer__subtitle";
+@import "../blocks/footer/__social-icons/footer__social-icons";
+@import "../blocks/footer/__social-icon/footer__social-icon";
