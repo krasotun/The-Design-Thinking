@@ -89,3 +89,18 @@
 @import "../blocks/footer/__subtitle/footer__subtitle";
 @import "../blocks/footer/__social-icons/footer__social-icons";
 @import "../blocks/footer/__social-icon/footer__social-icon";
+
+
+/* * {
+	outline: 1px red solid;
+} */
+
+
+.strategy__container {
+	outline: 1px blue solid;
+}
+
+.marketing__strategies-container {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
