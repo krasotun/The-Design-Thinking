@@ -30,7 +30,6 @@
 //Buttons
 @import "../blocks/button/button";
 @import "../blocks/button/_color/button_color-dark";
-@import "../blocks/button/_color/button_color-gold";
 @import "../blocks/button/_place/button_place-hero";
 @import "../blocks/button/_place/button_place-portfolio";
 @import "../blocks/button/_place/button_place-price";
@@ -42,7 +41,7 @@
 @import "../blocks/button/__text/button__text";
 @import "../blocks/button/__text/_color/button__text_color-dark";
 @import "../blocks/button/__text/_color/button__text_color-light";
-@import "../blocks/button/__text/_color/button__text_color-gold";
+
 
 // Form
 
@@ -61,6 +60,8 @@
 
 // Sections (used BEM Nested file structure)
 @import "../blocks/header/_header";
+@import "../blocks/header/__buttons-container/header__buttons-container";
+
 
 
 @import "../blocks/contacts/contacts";
