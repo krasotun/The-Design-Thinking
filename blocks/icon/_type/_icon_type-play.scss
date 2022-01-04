@@ -1,0 +1,9 @@
+.icon_type-play {
+  background-image: url(../../../images/icons/play.svg);
+  width: 18px;
+  height: 19px;
+
+  &:hover {
+    background-image: url(../../../images/icons/play-hover.svg);
+  }
+}

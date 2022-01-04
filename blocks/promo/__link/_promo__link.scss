@@ -1,0 +1,14 @@
+.promo__link {
+  margin-left: 43px;
+  @extend %font-header;
+  color: $color-orange;
+  @include font ($font-style: normal,
+    $font-weight: 600,
+    $font-size: 16px,
+    $line-height: 24px,
+  );
+
+  &:hover {
+    color: $color-pink;
+  }
+}

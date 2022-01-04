@@ -1,0 +1,10 @@
+.promo__text {
+  margin-top: 30px;
+  @extend %font-main;
+  color: $color-text;
+  @include font ($font-style: normal,
+    $font-weight: normal,
+    $font-size: 18px,
+    $line-height: 1.56,
+  );
+}

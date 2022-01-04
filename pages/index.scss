@@ -19,6 +19,12 @@
 @import "../blocks/wrapper/_paddings/_wrapper_paddings-sides";
 @import "../blocks/wrapper/_paddings/_wrapper_paddings-top";
 
+//Icons
+@import "../blocks/icon/_icon";
+@import "../blocks/icon/_place/icon_place-promo";
+
+@import "../blocks/icon/_type/icon_type-play";
+
 // Menu (used BEM Nested file structure)
 @import "../blocks/menu/menu";
 @import "../blocks/menu/__link/menu__link";
@@ -36,7 +42,7 @@
 @import "../blocks/button/_color/button_color-orange";
 @import "../blocks/button/_color/button_color-pink";
 
-@import "../blocks/button/_place/button_place-hero";
+@import "../blocks/button/_place/button_place-promo";
 @import "../blocks/button/_place/button_place-portfolio";
 @import "../blocks/button/_place/button_place-header";
 @import "../blocks/button/_place/button_place-price";
