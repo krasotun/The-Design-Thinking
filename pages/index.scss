@@ -3,6 +3,9 @@
 @import "../abstract/_mixins";
 @import "../abstract/_placeholders";
 
+//Effects
+@import "../blocks/shadow/shadow";
+
 //Flex
 @import "../blocks/flex/_flex";
 @import "../blocks/flex/_direction/flex_direction-column";
@@ -29,18 +32,25 @@
 
 //Buttons
 @import "../blocks/button/button";
-@import "../blocks/button/_color/button_color-dark";
+@import "../blocks/button/_color/button_color-light";
+@import "../blocks/button/_color/button_color-orange";
+@import "../blocks/button/_color/button_color-pink";
+
 @import "../blocks/button/_place/button_place-hero";
 @import "../blocks/button/_place/button_place-portfolio";
+@import "../blocks/button/_place/button_place-header";
 @import "../blocks/button/_place/button_place-price";
 @import "../blocks/button/_place/button_place-contacts";
 
 @import "../blocks/button/_size/button_size-small";
 @import "../blocks/button/_size/button_size-normal";
 @import "../blocks/button/_size/button_size-large";
+
 @import "../blocks/button/__text/button__text";
-@import "../blocks/button/__text/_color/button__text_color-dark";
-@import "../blocks/button/__text/_color/button__text_color-light";
+@import "../blocks/button/__text/_color/button__text-color-dark";
+@import "../blocks/button/__text/_color/button__text-color-light";
+
+
 
 
 // Form
@@ -96,10 +106,9 @@
 @import "../blocks/marketing/__strategies-container/marketing__strategies-container";
 
 
-
-* {
+/* * {
   outline: 1px red solid;
-}
+} */
 
 
 .strategy__container {

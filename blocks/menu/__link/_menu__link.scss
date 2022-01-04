@@ -1,14 +1,14 @@
 .menu__link {
-	@extend %font-main;
-	text-decoration: none;
-	@include font ($font-style: normal,
-		$font-weight: normal,
-		$font-size: 20px,
-		$line-height: 50px,
-	);
-	color: $color-light;
+  @extend %font-main;
+  text-decoration: none;
+  @include font ($font-style: normal,
+    $font-weight: normal,
+    $font-size: 15px,
+    $line-height: 28px,
+  );
+  color: $color-header;
 
-	&:hover {
-		color: $color-dark;
-	}
+  &:hover {
+    color: $color-orange;
+  }
 }
