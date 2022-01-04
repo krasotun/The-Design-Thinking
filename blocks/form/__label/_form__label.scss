@@ -1,11 +1,1 @@
-.form__label {
-	display: block;
-	margin: 10px 0;
-	color: $color-gold;
-	@extend %font-main;
-	@include font ($font-style: normal,
-		$font-weight: normal,
-		$font-size: 20px,
-		$line-height: 40px,
-	);
-}
+
