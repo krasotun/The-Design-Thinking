@@ -90,19 +90,25 @@
 @import "../blocks/footer/__social-icons/footer__social-icons";
 @import "../blocks/footer/__social-icon/footer__social-icon";
 
+@import "../blocks/marketing/marketing";
+@import "../blocks/marketing/__title/marketing__title";
+@import "../blocks/marketing/__subtitle/marketing__subtitle";
+@import "../blocks/marketing/__strategies-container/marketing__strategies-container";
 
-/* * {
-	outline: 1px red solid;
-} */
+
+
+* {
+  outline: 1px red solid;
+}
 
 
 .strategy__container {
-	outline: 1px blue solid;
+  outline: 1px blue solid;
 }
 
 .marketing__strategies-container {
-	flex-wrap: wrap;
-	justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 
