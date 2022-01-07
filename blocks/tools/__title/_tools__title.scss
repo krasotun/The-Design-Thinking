@@ -1,0 +1,12 @@
+.tools__title {
+  margin: 0;
+  max-width: 462px;
+  text-align: center;
+  @extend %font-header;
+  color: $color-header;
+  @include font ($font-style: normal,
+    $font-weight: bold,
+    $font-size: 34px,
+    $line-height: 1.29,
+  );
+}

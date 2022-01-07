@@ -1,0 +1,10 @@
+.tools__subtitle {
+  margin: 30px 0 0 0;
+  @extend %font-main;
+  color: $color-header;
+  @include font ($font-style: normal,
+    $font-weight: 600,
+    $font-size: 22px,
+    $line-height: 1.36,
+  );
+}

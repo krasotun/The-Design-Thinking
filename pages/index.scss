@@ -22,6 +22,12 @@
 //Icons
 @import "../blocks/icon/_icon";
 @import "../blocks/icon/_place/icon_place-promo";
+@import "../blocks/icon/__container/icon__container";
+@import "../blocks/icon/__container/_color/icon__container_color-pink";
+@import "../blocks/icon/__container/_color/icon__container_color-yellow";
+@import "../blocks/icon/__container/_color/icon__container_color-violet";
+@import "../blocks/icon/__container/_color/icon__container_color-blue";
+
 
 @import "../blocks/icon/_type/icon_type-play";
 
@@ -40,11 +46,12 @@
 @import "../blocks/button/button";
 @import "../blocks/button/_color/button_color-light";
 @import "../blocks/button/_color/button_color-orange";
-@import "../blocks/button/_color/button_color-pink";
+@import "../blocks/button/_color/button_color-red-orange";
 
 @import "../blocks/button/_place/button_place-promo";
 @import "../blocks/button/_place/button_place-portfolio";
 @import "../blocks/button/_place/button_place-header";
+@import "../blocks/button/_place/button_place-tools";
 @import "../blocks/button/_place/button_place-price";
 @import "../blocks/button/_place/button_place-contacts";
 
