@@ -79,6 +79,18 @@
 @import "../blocks/form/__title/form__title";
 @import "../blocks/form/__main-container/form__main-container";
 
+//Tabs
+@import "../blocks/tab/tab";
+@import "../blocks/tab/__container/tab__container";
+@import "../blocks/tab/__container/_place/tab__container_place-marketing";
+@import "../blocks/tab/__container/_place/tab__container_place-strategy";
+
+@import "../blocks/tab/_color/_tab_color-yellow";
+@import "../blocks/tab/_color/tab_color-gray";
+
+@import "../blocks/tab/_text-color/tab_text-color-dark";
+@import "../blocks/tab/_text-color/tab_text-color-light";
+
 
 
 // Sections (used BEM Nested file structure)
@@ -118,23 +130,5 @@
 @import "../blocks/marketing/__subtitle/marketing__subtitle";
 @import "../blocks/marketing/__strategies-container/marketing__strategies-container";
 
-
-/* * {
-  outline: 1px red solid;
-} */
-
-
-.strategy__container {
-  outline: 1px blue solid;
-}
-
-.marketing__strategies-container {
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-
-/* .strategy__container_size-big {
-	grid-column-start: 1;
-	grid-column-end: 3;
-} */
+@import "../blocks/strategy/__container/_strategy__container";
+@import "../blocks/strategy/__title/_strategy__title";

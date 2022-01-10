@@ -1,0 +1,14 @@
+.tab {
+  cursor: pointer;
+  border: 1px solid #D7D7D7;
+  box-sizing: border-box;
+  border-radius: 90px;
+  padding: 0 14px;
+  margin-right: 7px;
+  @extend %font-main;
+  @include font ($font-style: normal,
+    $font-weight: normal,
+    $font-size: 13px,
+    $line-height: 2.15,
+  );
+}
