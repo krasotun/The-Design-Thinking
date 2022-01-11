@@ -1,0 +1,10 @@
+.worker__title {
+  margin: 0;
+  @extend %font-main;
+  color: $color-header;
+  @include font ($font-style: normal,
+    $font-weight: bold,
+    $font-size: 16px,
+    $line-height: 1.62,
+  );
+}

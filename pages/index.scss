@@ -4,7 +4,8 @@
 @import "../abstract/_placeholders";
 
 //Effects
-@import "../blocks/shadow/shadow";
+@import "../blocks/shadow/_type/shadow_type-block";
+@import "../blocks/shadow/_type/shadow_type-image";
 
 //Flex
 @import "../blocks/flex/_flex";
@@ -113,7 +114,21 @@
 @import "../blocks/tools/__subtitle/tools__subtitle";
 @import "../blocks/tools/__text/tools__text";
 
+@import "../blocks/about/about";
+@import "../blocks/about/__title/about__title";
+@import "../blocks/about/__text/about__text";
 
+
+@import "../blocks/workers-container/workers-container";
+@import "../blocks/workers-container/_place/workers-container_place-about";
+
+@import "../blocks/worker/worker";
+@import "../blocks/worker/__content-container/worker__content-container";
+@import "../blocks/worker/__container/worker__container";
+@import "../blocks/worker/__title/worker__title";
+@import "../blocks/worker/__text/worker__text";
+@import "../blocks/worker/__e-mail/worker__e-mail";
+@import "../blocks/worker/__image/worker__image";
 
 
 @import "../blocks/contacts/contacts";

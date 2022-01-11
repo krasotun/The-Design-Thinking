@@ -1,0 +1,11 @@
+.worker__e-mail {
+  margin: 0;
+  @extend %font-main;
+  color: $color-link;
+  @include font ($font-style: normal,
+    $font-weight: normal,
+    $font-size: 16px,
+    $line-height: 1.86,
+  );
+  text-decoration: none;
+}
