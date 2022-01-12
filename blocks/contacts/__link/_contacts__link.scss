@@ -1,0 +1,15 @@
+.contacts__link {
+  align-items: center;
+  margin-top: 33px;
+  @extend %font-main;
+  color: $color-header;
+  @include font ($font-style: normal,
+    $font-weight: normal,
+    $font-size: 25px,
+    $line-height: 1.04,
+  );
+
+  &:nth-child(3) {
+    margin-top: 19px;
+  }
+}

@@ -24,13 +24,18 @@
 @import "../blocks/icon/_icon";
 @import "../blocks/icon/_place/icon_place-promo";
 @import "../blocks/icon/__container/icon__container";
+@import "../blocks/icon/__container/icon__container-small";
+
 @import "../blocks/icon/__container/_color/icon__container_color-pink";
 @import "../blocks/icon/__container/_color/icon__container_color-yellow";
 @import "../blocks/icon/__container/_color/icon__container_color-violet";
 @import "../blocks/icon/__container/_color/icon__container_color-blue";
+@import "../blocks/icon/__container/_color/icon__container_color-light";
 
 
 @import "../blocks/icon/_type/icon_type-play";
+@import "../blocks/icon/_type/icon_type-phone";
+@import "../blocks/icon/_type/icon_type-email";
 
 // Menu (used BEM Nested file structure)
 @import "../blocks/menu/menu";
@@ -132,6 +137,13 @@
 
 
 @import "../blocks/contacts/contacts";
+@import "../blocks/contacts/__title/contacts__title";
+@import "../blocks/contacts/__content-container/contacts__content-container";
+@import "../blocks/contacts/__text/contacts__text";
+@import "../blocks/contacts/__link/contacts__link";
+@import "../blocks/contacts/__link-text/contacts__link-text";
+@import "../blocks/contacts/__container/contacts__container";
+
 
 @import "../blocks/footer/footer";
 @import "../blocks/footer/__copyright/footer__copyright";
