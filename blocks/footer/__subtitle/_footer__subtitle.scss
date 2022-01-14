@@ -1,10 +1,10 @@
 .footer__subtitle {
-	@extend %font-main;
-	color: $color-light;
-	@include font ($font-style: normal,
-		$font-weight: bold,
-		$font-size: 20px,
-		$line-height: 50px,
-
-	);
+  @extend %font-main;
+  margin: 0;
+  color: $color-header;
+  @include font ($font-style: normal,
+    $font-weight: bold,
+    $font-size: 20px,
+    $line-height: 1.5,
+  );
 }
