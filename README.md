@@ -5,5 +5,5 @@
 [Figma] (https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding)
 
 
-- Адаптивы
+- Адаптивы ( сделать по макету)
 - Рефакторинг по БЭМ (модификаторы)
