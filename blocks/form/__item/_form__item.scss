@@ -1,5 +1,27 @@
 .form__item {
+  box-sizing: border-box;
+  border-radius: 5px;
   border: none;
   width: 280px;
   height: 45px;
+  padding-left: 20px;
+  @extend %font-main;
+  color: $color-header;
+  @include font ($font-style: normal,
+    $font-weight: normal,
+    $font-size: 16px,
+    $line-height: 1.62,
+  );
+
+  &:nth-child(2) {
+    margin-left: 6px;
+  }
+
+  &:focus {
+    outline-color: $color-yellow;
+  }
+
+  &::placeholder {
+    color: #C6C6C6;
+  }
 }
