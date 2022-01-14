@@ -4,6 +4,10 @@
 
 [Figma] (https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding)
 
-
+ADD
 - Адаптивы ( сделать по макету)
 - Рефакторинг по БЭМ (модификаторы)
+-
+
+- сделать ссылки в контактах
+- пофиксить размеры иконок в tools
