@@ -1,6 +1,7 @@
 .header__buttons-container {
   @include media-tablet {
-    justify-self: end;
+    margin-left: auto;
+
   }
 
   @include media-mobile {
