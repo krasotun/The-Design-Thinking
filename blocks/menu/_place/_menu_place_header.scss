@@ -1,0 +1,5 @@
+.menu_place_header {
+  @include media-tablet {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.header__buttons-container {
+  @include media-tablet {
+    justify-self: end;
+  }
+
+  @include media-mobile {
+    display: none;
+  }
+}

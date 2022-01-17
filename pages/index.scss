@@ -37,6 +37,11 @@
 @import "../blocks/icon/_type/icon_type-phone";
 @import "../blocks/icon/_type/icon_type-email";
 
+//logo
+@import "../blocks/logo/logo";
+@import "../blocks/logo/_place/logo_place_header";
+
+
 // Menu (used BEM Nested file structure)
 @import "../blocks/menu/menu";
 @import "../blocks/menu/__link/menu__link";
@@ -44,6 +49,10 @@
 @import "../blocks/menu/__list-item/menu__list-item";
 @import "../blocks/menu/_place/menu_place_header";
 @import "../blocks/menu/_place/menu_place_footer";
+@import "../blocks/burger-menu/burger-menu";
+@import "../blocks/burger-menu/_burger-menu__line/burger-menu__line";
+
+
 
 // Section
 @import "../blocks/section/section";

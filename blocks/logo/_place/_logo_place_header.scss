@@ -1,0 +1,9 @@
+.logo_place_header {
+  @include media-tablet {
+    margin-left: 37px;
+  }
+
+  @include media-mobile {
+    margin-left: 61px;
+  }
+}

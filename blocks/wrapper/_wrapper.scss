@@ -1,5 +1,14 @@
 .wrapper {
-	max-width: $desktop-width;
-	margin: 0 auto;
-	box-sizing: border-box;
+  max-width: $desktop-width;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  @include media-tablet {
+    max-width: $tablet-width;
+  }
+
+  @include media-mobile {
+    max-width: $mobile-width;
+  }
+
 }

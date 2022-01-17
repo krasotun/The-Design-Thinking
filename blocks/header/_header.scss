@@ -3,4 +3,8 @@
   align-items: center;
   padding-top: 15px;
   padding-bottom: 17px;
+
+  @include media-mobile {
+    justify-content: start;
+  }
 }

@@ -1,5 +1,14 @@
 .wrapper_paddings-sides {
-	padding-right: $padding-right;
-	padding-left: $padding-right;
+  padding-right: $padding-right;
+  padding-left: $padding-right;
 
+  @include media-tablet {
+    padding-right: $padding-right-tablet;
+    padding-left: $padding-left-tablet;
+  }
+
+  @include media-mobile {
+    padding-right: $padding-right-mobile;
+    padding-left: $padding-left-mobile;
+  }
 }

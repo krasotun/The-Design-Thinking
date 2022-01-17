@@ -1,0 +1,9 @@
+.burger-menu__line {
+  background-color: $color-dark;
+  width: 31px;
+  height: 3px;
+  border-radius: 5px;
+  position: absolute;
+  top: calc(50% - 1.5px);
+  left: 0;
+}
