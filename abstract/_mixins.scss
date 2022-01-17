@@ -1,8 +1,33 @@
 /// @include ///
 
 @mixin font ($font-size, $font-weight, $line-height, $font-style) {
-	font-size: $font-size;
-	font-weight: $font-weight;
-	line-height: $line-height;
-	font-style: $font-style;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  font-style: $font-style;
 }
+
+
+@mixin media-tablet {
+  @media (max-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin media-mobile {
+  @media (max-width: $mobile-width) {
+    @content;
+  }
+}
+
+/* @mixin media-mobilesmall {
+  @media (max-width: $mobile-small-width) {
+    @content;
+  }
+}
+
+@mixin media-laptop {
+  @media (max-width: $content-width) {
+    @content;
+  }
+} */
