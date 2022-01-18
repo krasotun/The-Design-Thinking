@@ -1,0 +1,12 @@
+.promo__image {
+  @include media-tablet {
+    width: 457.37px;
+    height: 403.63px;
+  }
+
+  @include media-mobile {
+    width: 280.37px;
+    height: 216px;
+  }
+
+}

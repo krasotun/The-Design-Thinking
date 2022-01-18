@@ -1,4 +1,21 @@
 .promo__content-container {
   margin-top: 83px;
   max-width: 470px;
+
+  @include media-tablet {
+    margin-top: 46px;
+    max-width: 378px;
+  }
+
+  @include media-mobile {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 333px;
+
+  }
+
 }

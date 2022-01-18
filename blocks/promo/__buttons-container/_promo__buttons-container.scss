@@ -1,4 +1,9 @@
 .promo__buttons-container {
   align-items: center;
-  margin-top: 45px;
+  margin-top: 60px;
+
+  @include media-mobile {
+    margin-top: 38px;
+    flex-direction: column;
+  }
 }

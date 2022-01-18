@@ -1,4 +1,10 @@
 .promo {
   margin-top: 30px;
   justify-content: space-between;
+  overflow: hidden;
+
+  @include media-mobile {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
 }
