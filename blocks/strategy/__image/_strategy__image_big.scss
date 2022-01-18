@@ -1,0 +1,5 @@
+.strategy__image_big {
+  @include media-tablet {
+    min-height: 175px;
+  }
+}

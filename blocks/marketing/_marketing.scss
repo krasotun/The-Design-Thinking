@@ -1,3 +1,13 @@
 .marketing {
   margin-top: 30px;
+
+  @include media-tablet {
+    margin-top: 51px;
+    text-align: center;
+  }
+
+  @include media-tablet {
+    margin-top: 63px;
+
+  }
 }

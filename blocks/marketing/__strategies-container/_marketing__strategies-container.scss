@@ -3,4 +3,13 @@
   margin-top: 31px;
   gap: 30px 34px;
   grid-template-columns: 30% 30% 30%;
+
+  @include media-tablet {
+    gap: 30px;
+    grid-template-columns: 50% 50%;
+  }
+
+  @include media-mobile {
+    grid-template-columns: 100%;
+  }
 }
