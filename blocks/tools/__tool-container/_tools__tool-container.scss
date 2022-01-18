@@ -1,3 +1,16 @@
 .tools__tool-container {
   flex-basis: 21%;
+
+  &:first-child {
+    @include media-mobile {
+      margin-top: 0;
+    }
+  }
+
+  @include media-tablet {
+    margin-top: 54px;
+    flex-basis: 48%;
+    align-items: center;
+  }
+
 }

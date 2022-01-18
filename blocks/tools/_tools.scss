@@ -5,4 +5,12 @@
   background-repeat: no-repeat;
   background-position: bottom center;
   min-height: 543px;
+
+  @include media-tablet {
+    margin-top: 78px;
+  }
+
+  @include media-mobile {
+    margin-top: 49px;
+  }
 }

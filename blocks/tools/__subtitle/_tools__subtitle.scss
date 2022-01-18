@@ -7,4 +7,9 @@
     $font-size: 22px,
     $line-height: 1.36,
   );
+
+  @include media-mobile {
+    font-size: 20px;
+    line-height: 1.35;
+  }
 }

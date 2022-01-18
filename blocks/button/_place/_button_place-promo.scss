@@ -1,1 +1,5 @@
-
+.button_place-promo {
+  @include media-tablet {
+    margin-top: 53px;
+  }
+}

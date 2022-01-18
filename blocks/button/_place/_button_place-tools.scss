@@ -1,3 +1,7 @@
 .button_place-tools {
   margin: 34px 0 0 0;
+
+  @include media-tablet {
+    margin-top: 54px;
+  }
 }

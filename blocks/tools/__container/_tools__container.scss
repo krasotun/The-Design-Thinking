@@ -1,4 +1,12 @@
 .tools__container {
   margin-top: 70px;
   justify-content: space-between;
+
+  @include media-tablet {
+    flex-wrap: wrap;
+  }
+
+  @include media-mobile {
+    flex-direction: column;
+  }
 }
