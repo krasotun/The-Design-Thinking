@@ -10,6 +10,8 @@
   }
 
   @include media-mobile {
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
+
   }
 }
