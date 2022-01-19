@@ -1,4 +1,13 @@
 .about {
   margin-top: 96px;
   margin-bottom: 101px;
+
+  @include media-tablet {
+    margin-top: 49px;
+    margin-bottom: 40px;
+  }
+
+  @include media-tablet {
+    margin-top: 40px;
+  }
 }

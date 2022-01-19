@@ -1,3 +1,11 @@
 .workers-container_place-about {
-  margin-top: 45px;
+  margin-top: 65px;
+
+  @include media-tablet {
+    margin-top: 57px;
+  }
+
+  @include media-mobile {
+    margin-top: 47px;
+  }
 }

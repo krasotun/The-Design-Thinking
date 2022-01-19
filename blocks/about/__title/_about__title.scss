@@ -7,4 +7,16 @@
     $font-size: 34px,
     $line-height: 1.29,
   );
+
+  @include media-tablet {
+    text-align: center;
+    line-height: 1.35;
+  }
+
+  @include media-mobile {
+
+    font-size: 24px;
+    line-height: 1.37;
+  }
+
 }
