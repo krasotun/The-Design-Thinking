@@ -13,8 +13,22 @@
     $line-height: 1.62,
   );
 
+  @include media-mobile {
+    width: 100%;
+
+  }
+
+
   &:nth-child(2) {
     margin-left: 6px;
+
+    @include media-tablet {
+      margin-left: 8px;
+    }
+
+    @include media-mobile {
+      margin: 16px 0 0 0;
+    }
   }
 
   &:focus {

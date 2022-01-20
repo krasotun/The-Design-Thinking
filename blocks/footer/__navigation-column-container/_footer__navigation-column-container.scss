@@ -1,0 +1,5 @@
+.footer__navigation-column-container {
+  @include media-mobile {
+    margin-top: 27px;
+  }
+}

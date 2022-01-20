@@ -1,4 +1,14 @@
 .form__main-container {
   max-width: 577px;
   margin: 17px 0 0 0;
+
+  @include media-tablet {
+    margin: 54px auto 0 auto;
+  }
+
+  @include media-mobile {
+    margin: 41px auto 0 auto;
+    flex-direction: column;
+  }
+
 }

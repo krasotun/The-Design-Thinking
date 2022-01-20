@@ -1,3 +1,12 @@
 .button_place-contacts {
   margin-top: 20px;
+
+  @include media-tablet {
+    margin: 26px auto;
+  }
+
+  @include media-tablet {
+    margin: 24px auto;
+  }
+
 }

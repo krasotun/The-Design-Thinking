@@ -1,12 +1,24 @@
 # The-Design-Thinking
+## Учебный проект
+## Верстка Landing-page по макету. Назначение - промо сайт небольшой команды маркетологов.
+## Использованы технологии
+- HTML;
+- CSS;
+- методология БЭМ;
+- Grid;
+- IDE: VSCode with plugins.
+### Выполнил: Ибрагимов Марат.
 
-# Start 27/12/2021
 
 [Figma] (https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding)
 
-ADD
-- Адаптивы ( сделать по макету)
-- Рефакторинг по БЭМ (модификаторы)
--
+## Планы по доработке
+- (HTML Coding) PerfectPixel
+- (File structure) Рефакторинг по БЭМ (переписать модификаторы)
+- (JS) Бургер меню
+- (JS) Модальные окна
+- (JS) Табы
+- (JS) Форма
+
 
 
