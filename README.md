@@ -11,6 +11,7 @@
 
 
 [Figma] (https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding)
+[Deploy] (https://krasotun.github.io/The-Design-Thinking/)
 
 ## Планы по доработке
 - (HTML Coding) PerfectPixel
