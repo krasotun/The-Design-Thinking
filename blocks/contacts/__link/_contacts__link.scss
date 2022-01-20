@@ -10,7 +10,14 @@
     $line-height: 1.04,
   );
 
+
   &:nth-child(3) {
     margin-top: 19px;
+  }
+
+
+
+  @include media-mobile {
+    font-size: 20px;
   }
 }

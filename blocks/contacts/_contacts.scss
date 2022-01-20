@@ -1,4 +1,13 @@
 .contacts {
   background-color: $color-background-contacts;
   padding: 62px 122px 82px 122px;
+
+  @include media-tablet {
+    padding: 50px;
+  }
+
+  @include media-mobile {
+    padding: 34px 21px 49px 21px;
+  }
+
 }

@@ -7,4 +7,8 @@
     $font-size: 34px,
     $line-height: 1.29,
   );
+
+  @include media-tablet {
+    text-align: center;
+  }
 }

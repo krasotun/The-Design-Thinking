@@ -1,5 +1,4 @@
 .contacts__text {
-  max-width: 528px;
   margin: 17px 0 0 0;
   @extend %font-main;
   color: $color-header;
@@ -8,4 +7,11 @@
     $font-size: 16px,
     $line-height: 1.62,
   );
+
+  @include media-tablet {
+    width: 100%;
+    text-align: center;
+
+  }
+
 }
