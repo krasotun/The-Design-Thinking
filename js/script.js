@@ -8,19 +8,28 @@
 const marketingTabContainer = document.querySelector('.tab__container_place_marketing');
 
 // Выбираем ВСЕ табы в контейнере (придет Node список)
-const marketingTags = document.querySelectorAll('.tab_place_marketing');
+const marketingTabs = document.querySelectorAll('.tab_place_marketing');
 
-// Пишем функцию для Парсинга клика именно по классу
+// Функция убирает selected у всех табов, у кого он есть
+const removeMarketingSelectedClass = function () {
+  for (let i = 0; i <= (marketingTabs.length - 1); i++) {
+    if (marketingTabs[i].classList.contains('tab_selected')) {
+      marketingTabs[i].classList.remove('tab_selected');
+    }
+  }
+};
+
+// Пишем функцию для Парсинга клика именно по тегу (Event delegation)
 const parseTagFromContainer = function () {
   marketingTabContainer.addEventListener('click', (e) => { // (e) это Event клик
     if (e.target.classList.contains("tab")) { // Мы обрабатываем событие клик и берем из него параметры (target)
       let clickedTag = e.target;
+      removeMarketingSelectedClass(); // Убираем selected
       toggleMarketingTag(clickedTag); // Вызываем функцию для toggle класса
     }
   });
 };
-
-parseTagFromContainer();
+parseTagFromContainer(); // Вызываем функцию
 
 // Пишем функцию по замене класса у кликнутого тэга
 const toggleMarketingTag = function (a) {
