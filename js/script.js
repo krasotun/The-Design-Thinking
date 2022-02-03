@@ -10,6 +10,16 @@ const marketingTabContainer = document.querySelector('.tab__container_place_mark
 // Выбираем ВСЕ табы в контейнере (придет Node список)
 const marketingTabs = document.querySelectorAll('.tab_place_marketing');
 
+// Выбираем все контейнеры для статьи
+const marketingArticle = document.querySelectorAll('.strategy__container');
+
+// Функция - выбираем текуцие теги у статьи
+const selectCurrentArticleTag = function () {
+  console.log(marketingArticle[0].childNodes[5].childNodes);
+};
+
+selectCurrentArticleTag();
+
 // Функция убирает selected у всех табов, у кого он есть
 const removeMarketingSelectedClass = function () {
   for (let i = 0; i <= (marketingTabs.length - 1); i++) {
