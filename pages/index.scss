@@ -97,15 +97,15 @@
 
 //Tabs
 @import "../blocks/tab/tab";
+@import "../blocks/tab/tab_selected";
+
 @import "../blocks/tab/__container/tab__container";
 @import "../blocks/tab/__container/_place/tab__container_place_marketing";
 @import "../blocks/tab/__container/_place/tab__container_place_strategy";
 
-@import "../blocks/tab/_color/_tab_color_yellow";
+
 @import "../blocks/tab/_color/tab_color_gray";
 
-@import "../blocks/tab/_text-color/tab_text-color_dark";
-@import "../blocks/tab/_text-color/tab_text-color_light";
 
 
 
