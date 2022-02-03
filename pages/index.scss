@@ -4,38 +4,38 @@
 @import "../abstract/_placeholders";
 
 //Effects
-@import "../blocks/shadow/_type/shadow_type-block";
-@import "../blocks/shadow/_type/shadow_type-image";
+@import "../blocks/shadow/_type/shadow_type_block";
+@import "../blocks/shadow/_type/shadow_type_image";
 
 //Flex
 @import "../blocks/flex/_flex";
-@import "../blocks/flex/_direction/flex_direction-column";
-@import "../blocks/flex/_direction/flex_direction-row";
+@import "../blocks/flex/_direction/flex_direction_column";
+@import "../blocks/flex/_direction/flex_direction_row";
 @import "../blocks/flex/_wrap/flex_wrap-wrap";
 @import "../blocks/flex/_wrap/flex_wrap-nowrap";
 
 //Wrapper
 @import "../blocks/wrapper/_wrapper";
 @import "../blocks/wrapper/_color/_wrapper_color-dark";
-@import "../blocks/wrapper/_paddings/_wrapper_paddings-sides";
+@import "../blocks/wrapper/_paddings/_wrapper_paddings_sides";
 @import "../blocks/wrapper/_paddings/_wrapper_paddings-top";
 
 //Icons
 @import "../blocks/icon/_icon";
-@import "../blocks/icon/_place/icon_place-promo";
+@import "../blocks/icon/_place/icon_place_promo";
 @import "../blocks/icon/__container/icon__container";
-@import "../blocks/icon/__container/icon__container-small";
+@import "../blocks/icon/__container/icon__container_small";
 
-@import "../blocks/icon/__container/_color/icon__container_color-pink";
-@import "../blocks/icon/__container/_color/icon__container_color-yellow";
-@import "../blocks/icon/__container/_color/icon__container_color-violet";
-@import "../blocks/icon/__container/_color/icon__container_color-blue";
-@import "../blocks/icon/__container/_color/icon__container_color-light";
+@import "../blocks/icon/__container/_color/icon__container_color_pink";
+@import "../blocks/icon/__container/_color/icon__container_color_yellow";
+@import "../blocks/icon/__container/_color/icon__container_color_violet";
+@import "../blocks/icon/__container/_color/icon__container_color_blue";
+@import "../blocks/icon/__container/_color/icon__container_color_light";
 
 
-@import "../blocks/icon/_type/icon_type-play";
-@import "../blocks/icon/_type/icon_type-phone";
-@import "../blocks/icon/_type/icon_type-email";
+@import "../blocks/icon/_type/icon_type_play";
+@import "../blocks/icon/_type/icon_type_phone";
+@import "../blocks/icon/_type/icon_type_email";
 
 //logo
 @import "../blocks/logo/logo";
@@ -60,24 +60,24 @@
 
 //Buttons
 @import "../blocks/button/button";
-@import "../blocks/button/_color/button_color-light";
-@import "../blocks/button/_color/button_color-orange";
+@import "../blocks/button/_color/button_color_light";
+@import "../blocks/button/_color/button_color_orange";
 @import "../blocks/button/_color/button_color-red-orange";
 
-@import "../blocks/button/_place/button_place-promo";
-@import "../blocks/button/_place/button_place-portfolio";
-@import "../blocks/button/_place/button_place-header";
-@import "../blocks/button/_place/button_place-tools";
-@import "../blocks/button/_place/button_place-price";
-@import "../blocks/button/_place/button_place-contacts";
+@import "../blocks/button/_place/button_place_promo";
+@import "../blocks/button/_place/button_place_portfolio";
+@import "../blocks/button/_place/button_place_header";
+@import "../blocks/button/_place/button_place_tools";
+@import "../blocks/button/_place/button_place_price";
+@import "../blocks/button/_place/button_place_contacts";
 
-@import "../blocks/button/_size/button_size-small";
-@import "../blocks/button/_size/button_size-normal";
-@import "../blocks/button/_size/button_size-large";
+@import "../blocks/button/_size/button_size_small";
+@import "../blocks/button/_size/button_size_normal";
+@import "../blocks/button/_size/button_size_large";
 
 @import "../blocks/button/__text/button__text";
-@import "../blocks/button/__text/_color/button__text-color-dark";
-@import "../blocks/button/__text/_color/button__text-color-light";
+@import "../blocks/button/__text/_color/button__text-color_dark";
+@import "../blocks/button/__text/_color/button__text-color_light";
 
 
 
@@ -98,14 +98,14 @@
 //Tabs
 @import "../blocks/tab/tab";
 @import "../blocks/tab/__container/tab__container";
-@import "../blocks/tab/__container/_place/tab__container_place-marketing";
-@import "../blocks/tab/__container/_place/tab__container_place-strategy";
+@import "../blocks/tab/__container/_place/tab__container_place_marketing";
+@import "../blocks/tab/__container/_place/tab__container_place_strategy";
 
-@import "../blocks/tab/_color/_tab_color-yellow";
-@import "../blocks/tab/_color/tab_color-gray";
+@import "../blocks/tab/_color/_tab_color_yellow";
+@import "../blocks/tab/_color/tab_color_gray";
 
-@import "../blocks/tab/_text-color/tab_text-color-dark";
-@import "../blocks/tab/_text-color/tab_text-color-light";
+@import "../blocks/tab/_text-color/tab_text-color_dark";
+@import "../blocks/tab/_text-color/tab_text-color_light";
 
 
 
@@ -135,7 +135,7 @@
 
 
 @import "../blocks/workers-container/workers-container";
-@import "../blocks/workers-container/_place/workers-container_place-about";
+@import "../blocks/workers-container/_place/workers-container_place_about";
 
 @import "../blocks/worker/worker";
 @import "../blocks/worker/__content-container/worker__content-container";
@@ -172,7 +172,7 @@
 @import "../blocks/strategy/__container/_strategy__container";
 @import "../blocks/strategy/__image/_strategy__image";
 @import "../blocks/strategy/__image/_strategy__image_big";
-@import "../blocks/strategy/__container/_size/strategy__container_size-big";
+@import "../blocks/strategy/__container/_size/strategy__container_size_big";
 
 @import "../blocks/strategy/__title/_strategy__title";
 @import "../blocks/strategy/__title/_color/strategy__title-color-yellow";
