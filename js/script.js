@@ -15,7 +15,7 @@ const marketingArticle = document.querySelectorAll('.strategy__container');
 
 // Функция - выбираем текуцие теги у статьи
 const selectCurrentArticleTag = function () {
-  console.log(marketingArticle[0].childNodes[5].childNodes);
+
 };
 
 selectCurrentArticleTag();
@@ -45,3 +45,35 @@ parseTagFromContainer(); // Вызываем функцию
 const toggleMarketingTag = function (a) {
   a.classList.toggle('tab_selected');
 };
+
+// MODALS
+// Выбираем контейнер со статьями
+const articlesContainer = document.querySelector('.marketing__strategies-container');
+// Пишем функцию для Парсинга клика именно по тегу (Event delegation)
+const parseArticleFromContainer = function () {
+  articlesContainer.addEventListener('click', (e) => {
+    if (e.target.classList.contains("strategy__container") || (e.target.classList.contains("strategy__image") || (e.target.classList.contains("strategy__title") || (e.target.classList.contains("tab_place_strategy"))))) {
+      openModalWindow();
+    }
+  });
+};
+
+parseArticleFromContainer();
+
+// Выбираем модальное окно
+const modalWindow = document.querySelector('.modal');
+
+//  Пишем функцию для открытия модального окна
+const openModalWindow = function () {
+  modalWindow.classList.add('modal__opened');
+};
+
+// Выбираем "крестик" закрытия модального окна
+const modalCloseButton = document.querySelector('.modal__close');
+
+//  Пишем функцию для закрятия модального окна
+const closeModalWindow = () => {
+  modalWindow.classList.remove('modal__opened');
+};
+
+modalCloseButton.addEventListener('click', closeModalWindow);
