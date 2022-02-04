@@ -52,6 +52,14 @@
 @import "../blocks/burger-menu/burger-menu";
 @import "../blocks/burger-menu/_burger-menu__line/burger-menu__line";
 
+//Modal
+@import "../blocks/modal/modal";
+@import "../blocks/modal/modal_opened";
+@import "../blocks/modal/__close/modal__close";
+@import "../blocks/modal/__container/modal__container";
+@import "../blocks/modal/_type/modal_type_article";
+
+
 
 
 // Section
@@ -175,4 +183,7 @@
 @import "../blocks/strategy/__container/_size/strategy__container_size_big";
 
 @import "../blocks/strategy/__title/_strategy__title";
+@import "../blocks/strategy/__date/_strategy__date";
+@import "../blocks/strategy/__text/_strategy__text";
+
 @import "../blocks/strategy/__title/_color/strategy__title-color-yellow";

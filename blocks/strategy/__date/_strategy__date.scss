@@ -1,0 +1,10 @@
+.strategy__date {
+  padding: 0 33px;
+  @extend %font-main;
+  color: $color-header;
+  @include font ($font-style: normal,
+    $font-weight: normal,
+    $font-size: 13px,
+    $line-height: 2,
+  );
+}

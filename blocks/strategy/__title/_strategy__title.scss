@@ -10,4 +10,7 @@
     $line-height: 34px,
   );
 
+  &:hover {
+    color: $color-yellow;
+  }
 }
