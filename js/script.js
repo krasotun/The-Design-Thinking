@@ -49,7 +49,7 @@ const toggleMarketingTag = function (a) {
 // MODALS
 // Выбираем контейнер со статьями
 const articlesContainer = document.querySelector('.marketing__strategies-container');
-// Пишем функцию для Парсинга клика именно по тегу (Event delegation)
+// Пишем функцию для Парсинга клика
 const parseArticleFromContainer = function () {
   articlesContainer.addEventListener('click', (e) => {
     if (e.target.classList.contains("strategy__container") || (e.target.classList.contains("strategy__image") || (e.target.classList.contains("strategy__title") || (e.target.classList.contains("tab_place_strategy"))))) {
