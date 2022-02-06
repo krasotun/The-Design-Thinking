@@ -1,4 +1,4 @@
-// Abstract (importing variablex, mixins, placeholders etc.
+// Abstract (importing variablex, mixins, placeholders etc.)
 @import "../abstract/_constants";
 @import "../abstract/_mixins";
 @import "../abstract/_placeholders";
@@ -6,6 +6,9 @@
 //Effects
 @import "../blocks/shadow/_type/shadow_type_block";
 @import "../blocks/shadow/_type/shadow_type_image";
+
+// Page
+@import "../blocks/page/page";
 
 //Flex
 @import "../blocks/flex/_flex";
@@ -46,12 +49,18 @@
 @import "../blocks/menu/menu";
 @import "../blocks/menu/__link/menu__link";
 @import "../blocks/menu/__list/menu__list";
+@import "../blocks/menu/__list/_place/menu__list_place_burger";
 @import "../blocks/menu/__list-item/menu__list-item";
 @import "../blocks/menu/_place/menu_place_header";
 @import "../blocks/menu/_place/menu_place_footer";
+@import "../blocks/menu/_place/menu_place_burger";
 @import "../blocks/burger-menu/burger-menu";
 @import "../blocks/burger-menu/__line/burger-menu__line";
 @import "../blocks/burger-menu/__icon/burger-menu__icon";
+@import "../blocks/burger-menu/__icon/burger-menu__icon_close";
+@import "../blocks/burger-menu/__container/burger-menu__container";
+@import "../blocks/burger-menu/__header/burger-menu__header";
+
 
 //Modal
 @import "../blocks/modal/modal";
