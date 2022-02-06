@@ -65,15 +65,46 @@ const modalWindow = document.querySelector('.modal');
 
 //  Пишем функцию для открытия модального окна
 const openModalWindow = function () {
-  modalWindow.classList.add('modal__opened');
+  modalWindow.classList.add('modal_opened');
 };
 
 // Выбираем "крестик" закрытия модального окна
-const modalCloseButton = document.querySelector('.modal__close');
+const modalCloseButton = document.querySelector('.modal__close-button');
 
-//  Пишем функцию для закрятия модального окна
+//  Пишем функцию для закрытия модального окна
 const closeModalWindow = () => {
-  modalWindow.classList.remove('modal__opened');
+  modalWindow.classList.remove('modal_opened');
 };
 
 modalCloseButton.addEventListener('click', closeModalWindow);
+
+
+// Бургер меню
+
+// Выбираем модалку с бургерным меню
+const burgerMenu = document.querySelector('.burger-menu');
+
+// Выбираем кнопку открытия
+const buttonOpenBurgerMenu = document.querySelector('.burger-menu__icon_open');
+
+// Выбираем кнопку открытия
+const buttonCloseBurgerMenu = document.querySelector('.burger-menu__icon_close');
+
+
+// Пишем функцию для открытия модалки с бургерным меню
+// Также прячем кнопку открытия
+const openBurgerMenu = function () {
+  burgerMenu.classList.add('burger-menu_opened');
+  buttonOpenBurgerMenu.classList.add('burger-menu__icon_hide');
+};
+
+// Пишем функцию для закрытия модалки с бургерным меню
+// Возвращаем кнопку открытия
+const closeBurgerMenu = function () {
+  burgerMenu.classList.remove('burger-menu_opened');
+  buttonOpenBurgerMenu.classList.remove('burger-menu__icon_hide');
+};
+
+// Вешаем события на кнопки
+buttonOpenBurgerMenu.addEventListener('click', openBurgerMenu);
+buttonCloseBurgerMenu.addEventListener('click', closeBurgerMenu);

@@ -43,6 +43,7 @@
 //logo
 @import "../blocks/logo/logo";
 @import "../blocks/logo/_place/logo_place_header";
+@import "../blocks/logo/_place/logo_place_burger";
 
 
 // Menu (used BEM Nested file structure)
@@ -55,9 +56,12 @@
 @import "../blocks/menu/_place/menu_place_footer";
 @import "../blocks/menu/_place/menu_place_burger";
 @import "../blocks/burger-menu/burger-menu";
+@import "../blocks/burger-menu/burger-menu_opened";
 @import "../blocks/burger-menu/__line/burger-menu__line";
 @import "../blocks/burger-menu/__icon/burger-menu__icon";
 @import "../blocks/burger-menu/__icon/burger-menu__icon_close";
+@import "../blocks/burger-menu/__icon/burger-menu__icon_hide";
+@import "../blocks/burger-menu/__icon/burger-menu__icon_open";
 @import "../blocks/burger-menu/__container/burger-menu__container";
 @import "../blocks/burger-menu/__header/burger-menu__header";
 
@@ -65,7 +69,7 @@
 //Modal
 @import "../blocks/modal/modal";
 @import "../blocks/modal/modal_opened";
-@import "../blocks/modal/__close/modal__close";
+@import "../blocks/modal/__close-button/modal__close-button";
 @import "../blocks/modal/__container/modal__container";
 @import "../blocks/modal/_type/modal_type_article";
 
