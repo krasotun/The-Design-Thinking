@@ -124,8 +124,6 @@
 @import "../blocks/tab/__container/tab__container";
 @import "../blocks/tab/__container/_place/tab__container_place_marketing";
 @import "../blocks/tab/__container/_place/tab__container_place_strategy";
-
-
 @import "../blocks/tab/_color/tab_color_gray";
 
 
@@ -192,6 +190,8 @@
 @import "../blocks/marketing/__strategies-container/marketing__strategies-container";
 
 @import "../blocks/strategy/__container/_strategy__container";
+@import "../blocks/strategy/__container/_strategy__container_hidden";
+
 @import "../blocks/strategy/__image/_strategy__image";
 @import "../blocks/strategy/__image/_strategy__image_big";
 @import "../blocks/strategy/__container/_size/strategy__container_size_big";

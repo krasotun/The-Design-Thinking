@@ -10,41 +10,62 @@ const marketingTabContainer = document.querySelector('.tab__container_place_mark
 // Выбираем ВСЕ табы в контейнере (придет Node список)
 const marketingTabs = document.querySelectorAll('.tab_place_marketing');
 
-// Выбираем все контейнеры для статьи
-const marketingArticle = document.querySelectorAll('.strategy__container');
+// Выбираем все контейнеры для статьи (придет Node список)
+const marketingArticlesContainers = document.querySelectorAll('.strategy__container');
 
-// Функция - выбираем текуцие теги у статьи
-const selectCurrentArticleTag = function () {
-
+// Функция скрывает ВСЕ статьи (добавляя класс к контейнеру)
+const hideArticles = function () {
+  marketingArticlesContainers.forEach(article => {
+    article.classList.add('strategy__container_hidden');
+  });
 };
 
-selectCurrentArticleTag();
+// Функция показывает ВСЕ  статьи
+const showArticles = function () {
+  marketingArticlesContainers.forEach(article => {
+    article.classList.remove('strategy__container_hidden');
+  });
+};
+
 
 // Функция убирает selected у всех табов, у кого он есть
 const removeMarketingSelectedClass = function () {
-  for (let i = 0; i <= (marketingTabs.length - 1); i++) {
-    if (marketingTabs[i].classList.contains('tab_selected')) {
-      marketingTabs[i].classList.remove('tab_selected');
+  marketingTabs.forEach(tab => {
+    if (tab.classList.contains('tab_selected')) {
+      tab.classList.remove('tab_selected');
     }
-  }
+  });
 };
 
-// Пишем функцию для Парсинга клика именно по тегу (Event delegation)
-const parseTagFromContainer = function () {
+
+// Пишем функцию для переключения статей по выбранному тегу
+const selectArticlesByTag = function () {
   marketingTabContainer.addEventListener('click', (e) => { // (e) это Event клик
     if (e.target.classList.contains("tab")) { // Мы обрабатываем событие клик и берем из него параметры (target)
       let clickedTag = e.target;
       removeMarketingSelectedClass(); // Убираем selected
-      toggleMarketingTag(clickedTag); // Вызываем функцию для toggle класса
+      toggleMarketingTag(clickedTag); // Вызываем функцию для toggle класса (выделение цвета)
+      hideArticles(); // Скрываем все статьи
+      marketingArticlesContainers.forEach(article => { // Перебираем все статьи
+        article.querySelectorAll('.tab_place_strategy').forEach(tag => { // Перебираем все теги в каждой статье
+          if (tag.innerText === e.target.innerText) { // Сравниваем выбранный тег с тегом статьи
+            article.classList.remove('strategy__container_hidden'); // если совпадает то показываем статью
+          } else if (e.target.innerText === 'All') { // Если клик по табу All
+            showArticles(); // показываем все статьи
+          }
+        });
+      });
     }
   });
 };
-parseTagFromContainer(); // Вызываем функцию
+selectArticlesByTag(); // Вызываем функцию
 
 // Пишем функцию по замене класса у кликнутого тэга
 const toggleMarketingTag = function (a) {
   a.classList.toggle('tab_selected');
 };
+
+
 
 // MODALS
 // Выбираем контейнер со статьями
