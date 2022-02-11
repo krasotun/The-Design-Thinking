@@ -30,12 +30,13 @@ const showArticles = function () {
 
 // Функция убирает selected у всех табов, у кого он есть
 const removeMarketingSelectedClass = function () {
-  for (let i = 0; i <= (marketingTabs.length - 1); i++) {
-    if (marketingTabs[i].classList.contains('tab_selected')) {
-      marketingTabs[i].classList.remove('tab_selected');
+  marketingTabs.forEach(tab => {
+    if (tab.classList.contains('tab_selected')) {
+      tab.classList.remove('tab_selected');
     }
-  }
+  });
 };
+
 
 // Пишем функцию для переключения статей по выбранному тегу
 const selectArticlesByTag = function () {
