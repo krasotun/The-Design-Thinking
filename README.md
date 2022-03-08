@@ -26,3 +26,5 @@
 ### Выполнил: Ибрагимов Марат.
 [Макет](https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding)
 [Deploy](https://krasotun.github.io/The-Design-Thinking/)
+
+![krasotun github io_The-Design-Thinking_](https://user-images.githubusercontent.com/88790010/157279905-2ea9af4d-8196-4ecf-8387-85e751376d1c.png)
